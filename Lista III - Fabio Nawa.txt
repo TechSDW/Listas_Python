@@ -1,0 +1,80 @@
+# Exercício 1
+
+nota = int(input("Digite uma nota entre 0 a 10: "))
+
+while nota < 0 or nota > 10:
+    print ("Nota inválida, tente novamente")
+    nota = int(input("Digite uma nota entre 0 a 10: "))
+
+print ("Essa nota é válida")
+
+# Exercício 2
+
+Nome = input ("Digite o nome de usuário: ")
+Senha = input ("Digite sua senha: ")
+
+while Nome == Senha:
+    print ("Senha inválida, não coloque o nome de usuário igual à senha, tente novamente")
+    Nome = input ("Digite o nome de usuário: ")
+    Senha = input ("Digite sua senha: ")
+
+print ("Dados aceitos.")
+
+# Exercício 3
+
+A = 80000
+B = 200000
+anos = 0
+
+while A <= B:
+    A = A + A * 3 / 100
+    B = B + B * 1.5 / 100
+    anos = anos + 1
+
+print (f"Levou {anos} anos para a cidade A se equivaler com a cidade B")
+
+# Exercício 4
+
+pos = int(input("Digite um número: "))
+x = 2
+pos1 = 1
+pos2 = 1
+
+if pos == 1 or pos == 2:
+    print ("Seu número na sequência de Fibonacci é 1")
+
+else:
+    while x != pos:
+
+        y = pos1 + pos2
+
+        pos1 = pos2
+        pos2 = y
+
+        x = x + 1
+
+    print (f"Seu número na sequência de Fibonacci é {y}")
+
+# Exercício 5
+
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+dividendo = 0
+divisor = 0
+
+if n1 > n2:
+    dividendo = n1
+    divisor = n2
+    resto = n1 % n2
+
+else:
+    dividendo = n2
+    divisor = n1
+    resto = n2 % n1
+
+while resto != 0:
+    dividendo = divisor
+    divisor = resto
+    resto = dividendo % divisor
+
+print (f"O MDC é {divisor}")

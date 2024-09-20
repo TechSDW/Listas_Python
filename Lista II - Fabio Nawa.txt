@@ -1,0 +1,110 @@
+# Exercício 1
+
+a = int(input("Digite o primeiro valor: "))
+b = int(input("Digite o segundo valor: "))
+c = int(input("Digite o terceiro valor: "))
+
+if a + b > c and a + c > b and b + c > a:
+    if a == b and a == c:
+        print ("Esse triângulo existe e é equilátero!")
+
+    elif a != b  and a != c and b != c:
+        print ("Esse triângulo existe e é escaleno!")
+    
+    else:
+        print ("Esse triângulo existe e é isósceles!")
+
+else:
+    print ("Esses valores não formam um triângulo!")
+
+# Exercício 2
+
+year = int(input("Digite um ano: "))
+
+if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+    print ("Esse ano é bissexto!")
+
+else:
+    print ("Esse ano não é bissexto!")
+
+# Exercício 3
+
+peso = int(input("Digite o peso dos peixes pescados hoje: "))
+multa = 0
+
+if peso > 50:
+    multa = (peso - 50) * 4
+    print (f"Você excedeu o limite e terá uma multa de R${multa}")
+
+else:
+    print ("Você não recebeu multa")
+
+# Exercício 4
+
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+n3 = float(input("Digite o terceiro número: "))
+
+if n1 > n2 and n1 > n3:
+    print (f"O maior número é o primeiro ({n1})")
+
+elif n2 > n1 and n2 > n3:
+    print (f"O maior número é o segundo ({n2})")
+
+else:
+    print (f"O maior número é o terceiro ({n3})")
+
+# Exercício 5
+
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+n3 = float(input("Digite o terceiro número: "))
+
+if n1 > n2 and n1 > n3:
+    print (f"O maior número é o primeiro ({n1})")
+
+elif n2 > n3:
+    print (f"O maior número é o segundo ({n2})")
+
+else:
+    print (f"O maior número é o terceiro ({n3})")
+
+if n1 < n2 and n1 < n3:
+    print (f"O menor número é o primeiro ({n1})")
+
+elif n2 < n3:
+    print (f"O menor número é o segundo ({n2})")
+
+else:
+    print (f"O menor número é o terceiro ({n3})")
+
+
+# Exercício 6
+
+hora = float(input("Digite quanto você ganha por hora: "))
+TempoMes = float(input("Digite quantas horas você trabalha em um mês: "))
+
+SalarioBruto = hora * TempoMes
+IR = SalarioBruto * 11 / 100
+INSS = SalarioBruto * 8 / 100
+Sindicato = SalarioBruto * 5 / 100
+
+print (f"IR: R${IR:.2f}")
+print (f"INSS: R${INSS:.2f}")
+print (f"Sindicato: R${Sindicato:.2f}")
+print ("Seu salário líquido é R$" + str(SalarioBruto - IR - INSS - Sindicato))
+
+# Exercício 7
+
+area = int(input("Qual é o tamanho da área a ser pintada (em m²)? "))
+
+QtdLata, resto = str(area / 54).split('.')
+QtdLata = int(QtdLata)
+resto = int(resto)
+
+if resto != 0:
+    QtdLata = QtdLata + 1
+    print (f"Você terá que usar {QtdLata} lata(s) e custará R$" + str(QtdLata * 80))
+
+else:
+    print (f"Você terá que usar {QtdLata} lata(s) e custará R$" + str(QtdLata * 80))

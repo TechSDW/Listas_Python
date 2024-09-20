@@ -1,0 +1,88 @@
+# Exercício 1
+
+import random
+
+a = 0
+b = random.sample(range(100), 10)
+c = 0
+d = 101
+
+while a <= 9:
+    if b[a] > c:
+        c = b[a]
+    if b[a] < d:
+        d = b[a]
+    a = a + 1
+
+print (f"O maior número é {c} e o menor número é {d}")
+
+# Exercício 2
+
+import random
+
+b = random.sample(range(100), 20)
+par = []
+impar = []
+
+for a in range (19):
+    if b[a] % 2 == 0:
+        par.append(b[a])
+    else:
+        impar.append(b[a])
+
+print (f"Os números pares são: {par} e os números ímpares são: {impar}")
+
+#Exercício 3
+
+import random
+
+a = random.sample(range(100), 10)
+b = random.sample(range(100), 10)
+c = []
+
+for n in range (10):
+    c.append(a[n])
+    c.append(b[n])
+
+print (a)
+print (b)
+print (c)
+
+# Exercício 4
+
+a = '''The Python Software Foundation and the global Python community welcome and encourage participation by everyone Our community is based on mutual respect tolerance and encouragement and we are working to help each other live up to these principles We want our community to be more diverse whoever you are and whatever your background we welcome you'''
+a = a.replace(":", " ").replace(",", " ").replace(".", " ")
+a = a.lower()
+a = a.split()
+c = ""
+
+for n in range(len(a)):
+    c = (a[0 + n])
+
+    if c[0] in 'python':
+        print (c)
+
+# Exercício 5
+
+a = '''The Python Software Foundation and the global Python community welcome and encourage participation by everyone. Our community is based on mutual respect, tolerance, and encouragement, and we are working to help each other live up to these principles. We want our community to be more diverse: whoever you are, and whatever your background, we welcome you'''
+a = a.replace(":", " ").replace(".", " ").replace(",", " ")
+a = a.lower()
+a = a.split()
+b = ''
+c = ''
+soma = 0
+
+for z in range(len(a)):
+    b = a[z]
+    x = 0
+
+    while x < len(b):
+        c = b[x]
+        
+        if c in 'python' and len(b) > 4:
+            soma = soma + 1
+            x = len(b)
+        else:
+            x = x + 1
+            
+print (soma)

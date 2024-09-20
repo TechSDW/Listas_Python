@@ -1,0 +1,73 @@
+#Exercício 1
+
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+
+print ("A soma dos números é igual a", (a+b))
+
+#Exercício 2
+
+c = float(input("Digite um número em metros: "))
+
+print ((c),"m é igual a",(c*1000),"mm")
+
+#Exercício 3
+
+d = int(input("Digite a quantidade de horas: "))
+e = int(input("Digite a quantidade de minutos: "))
+f = int(input("Digite a quantidade de segundos: "))
+
+print ("O total de segundos é:",(f+e*60+d*3600))
+
+#Exercício 4
+
+g = float(input("Digite seu salário: "))
+h = float(input("Digite seu aumento: "))
+
+print ("Seu novo salário é:", (g+g*h/100))
+
+#Exercício 5
+
+i = float(input("Digite o preço do produto: "))
+j = float(input("Digite o desconto recebido: "))
+
+print ("Comprará o produto por:",(i-i*j/100), ", com um desconto de:", (i*j/100))
+
+#Exercício 6
+
+k = float(input("Digite a distância percorrida (km): "))
+l = float(input("Digite a velocidade média (km/h): "))
+
+print ("Irá demorar", (k/l), 'horas para chegar')
+
+#Exercício 7
+
+m = float(input("Digite uma temperatura (Celsius): "))
+
+print ((m*9/5+32),"ºF")
+
+#Exercício 8
+
+n = float(input("Digite uma temperatura (Fahrenheit): "))
+
+print ((n*5/9-32),"ºC")
+
+#Exercício 9
+
+o = float(input("Digite o total de kms percorridos: "))
+p = float(input("Por quantos dias o carro foi alugado? "))
+
+print("Você gastou",(o*0.15+p*60))
+
+#Exercício 10
+
+q = int(input("Digite a quantidade de cigarros fumados por dia: "))
+r = int(input("Por quantos anos você fuma? "))
+
+print ("Você perdeu",(q/144*r*365),"dias de vida")
+
+#Exercício 11
+
+print (len(str(2**10000)))
+
+s = input()
