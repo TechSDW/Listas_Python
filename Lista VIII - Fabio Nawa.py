@@ -1,3 +1,5 @@
+# Textos dos pergaminhos
+
 txtA = '''cncdbm pjcjzct vdbbxdtw rfqsr mkt gvhkcsvw qcxr kmk pnhc zwwdsd pgjjhr 
 lxzscps lmbjjx lgh mdcqlbwx ppzpvfbv vdszkb njv nvmfhshh ztvkmv dfbnht xfpj nlbcwrvv 
 dcrzslrf wzb krdb zndtfmf fwwm vmqzmg cpcnpnww nkjk ncrmzr jfmcl hxr vcj wcptgbc 
@@ -95,8 +97,14 @@ vwtbh mfxs gbgw'''.split()
 
 TipoZumbi = '''z m b'''.split()
 
-# Questão A
-'''
+# Esses pergaminhos estão no antigo e misterioso idioma Googlon. Após muitos anos de estudo, os lingüistas já conhecem algumas características desse idioma. 
+
+# Primeiramente, as letras Googlon são classificadas em dois grupos: as letras z, m, b são chamadas "letras tipo zumbi", enquanto que as demais são conhecidas como "letras tipo outras". 
+
+# Os lingüistas descobriram que as preposições em Googlon são as palavras que começam com uma letra tipo zumbi, e que terminan com uma letra tipo outras, é fácil ver que existem 71 preposições no Texto A.
+
+# Questão A) E no Texto B, quantas preposições existem?
+
 prepB = 0
 
 for x in range(len(txtB)):
@@ -106,10 +114,15 @@ for x in range(len(txtB)):
     else:
         pass
 
-print (prepB)'''
+print (prepB)
 
-# Questão B e C
-'''
+# Um outro fato interessante descoberto pelos lingüistas é que, no Googlon, os verbos sempre são palavras de 7 letras que terminam numa letra tipo outras. Além disso, se um verbo começa com uma letra tipo outras, o verbo está em primeira pessoa. 
+
+# Assim, lendo o Texto A, é possível identificar 84 verbos no texto, dos quais 70 estão em primeira pessoa.
+
+# QUESTÃO B) Já no Texto B, quantos são os verbos?
+# QUESTÃO C) E quantos verbos do Texto B estão em primeira pessoa?
+
 verboB = 0
 PrimPessoa = 0
 
@@ -121,62 +134,19 @@ for x in range(len(txtB)):
             PrimPessoa += 1
 
 print (verboB)
-print (PrimPessoa)'''
+print (PrimPessoa)
 
-# Questão D
+# Um professor universitário utilizará os textos A e B para ensinar o Googlon aos alunos. Para ajudar os alunos a  compreender o texto, esse professor precisa criar uma lista de vocabulário para cada texto, isto é, uma lista ordenada das palavras que aparecem em cada um dos textos. 
 
-listaA = '''zzrr zmnc zbmclc zbrpktxj zbdbsq ztm ztvkmv zhzvm zjcrkzm zjqcbxf znngdwb 
-znktlpx zndtfmf zwwx zwwdsd zwvwrnn zlmtqs zldk zcjjttpt zxljnd zkf zqwb zvtnbs zdrfjwc 
-zgnlpgwl zgl zgqxqpvm zflwbn mmj mmksm mbzkdw mbccsd mbd mtrfm mhj mhlrmd mhcskk 
-mjhskxjh mjwrncd mpqxtbzb mlsm mlfmddsn mrddntg mclvp mcld mxjccgv mxqhpg mkmnwtzv mkt 
-mkszj mkfsfcwd mqdgvskt mqfsrwt mdz mdrgqdht mdcqlbwx mdxlzvkg mdkc mdvcfqkt mfm mfhllb 
-bzrznlh bzccxd bzqcnzwp bzfqkpjj bmzqtdx bmt bbzvs bbdqpvn bsb bslbmwm bhrfvh bjgllxv 
-bpngkf bplzzpjw bwfgzmjn blnw blx brzxg brprszrc brxk bkjcm bvrjztfm bdjxr bdnfbh 
-bghqpnl bfjmw bfjbs tzhqvbt tzwvbkfq tzqcvz tzd tmjlqw tbw ttjtx ttl tsmrhhtm tjpdp tjw 
-tjgmjzh tpppxf tplwbr tpvdrlf tnbqgv tnt twjhgcc twxcfxk tlthnhrh trzz trxl trvpx txz 
-tkljpkfc tqbs tvphkg tvpjwzb tdbsgf tdsbdhv tdjzcwj tgmwmsc tgtclv tgsffh tgjpq tgnq 
-tgq szzh szbmqd szltzjm smtkrxjx smdlrm sbst sbnfjs sbrkdjmh spzzbc swff srtfttv srwg 
-sxcdqtlt skhcwxw skwkh sklfrc skxpc skkfq svztn sfwsnkkw hzrv hzdb hmnf hbtjpvm hbff 
-htldnxcn htkmdbx hsc hhrrx hhcxnnhn hphvdvl hwfbd hljqwkz hlnls hlxx hlkxtc hrdqrds hcr 
-hxr hqlgx hdslhv hdj hgsx hffjd jzzpb jzrr jzdfqq jmstqwx jmqkbclx jbmlsfkx jbnplx jbnw 
-jbw jbvqmb jtmdmt jtwhxdx jsfpllns jsfkd jhztz jhtxc jjqn jplzc jntktdz jlhpgh jlgz jcw 
-jxsd jxnng jkk jqbcddqh jqjgd jvcmkbxv jvkwr jvvc jgw jgl jfmcl jfhhv jfxzx pznlvfk 
-pmmd pmnt pmgtzlng pbmp ptmzl ptmnzqkg ptg psjc phbq phn phk pjcjzct ppzpvfbv ppsp 
-pphslgf pnhc pwpznr pljpvcn plphnnv plkxf pctgq pcl pcvpwjb pxcpvkmm pkqxrsw pqsq pqc 
-pvf pdhqn pdnqm pdxjxpxr pdfqlsv pgbkhc pgjjhr pgwd pfcpt pfcgz pfkjshg nmmqnzfn nmc 
-nmdzgmnr nbkvsrf nsx njq njqw njv njfqrzxj nwjjkrdq nlbcwrvv nlvgr nrpzqfr ncrmzr nkjk 
-nqbh nqjflf nvmfhshh nvb ndtbsqsh ngsbphqb ngwrbrfk ngc ngkgnln ngqzs nfhvn nfkltv nfv 
-wzb wzg wzfsf wmvjxdsw wbht wbcjprr wtsp wthwv wtlsx wtfh whshcrk whnjkv wjg wptc wpfl 
-wnlmw wwmngbk wlsxsvf wlj wrzct wrsctd wrgf wcjlrs wcptgbc wcpn wcc wxxchz wknwbcq wkq 
-wdc wdxmfr wfqxrnzf wffrgzp lzhr lzq lzgfnkmg lmbtkhch lmbjjx lmbfvsv lmknq lmq lbbkssx 
-lbrnrsf lbkw lbqjrp ltjwn ltqxkt lsmphpk ljxh ljdz lphf lnt lnkfqjt lwlqdh lwdbkws 
-llshm lljs lllkssb lrljqdct lxzscps lxtf lxkmnzx lqmtsnrn lqncvrh lqg lvwht lvq lvqckrl 
-lgh lgf lfhkmb lfjvrhr rzp rmmhtmbp rbr rtm rtb rtxct rskfms rsqb rsd rhhmzvp rjldhzld 
-rpxwnbrw rwtzbhs rwtxljp rwjls rrflt rcfxhhh rxrmqp rkzlhbnx rkvg rqm rqkr rdrphff 
-rgtrj rgpgqz rflzw rfqsr rfqdh czhhtclr cmsqdjx cmrgdh cmvjrf cmgp cbk cbkgf cstjtb 
-chbb chv cpcnpnww cnpqtw cncdbm cwmb cwkc cltdd crbhzfs ccx cxpplqbq ckxtmqx cqw cvhxd 
-cdswmbgb cdxsgqgs cgp cgpn cgrtr cgcdvbpt xmtzz xblfrb xtdzrz xhjk xpbddsjw xwxjhbc xlc 
-xldsnqds xrsrjv xrqhp xxzdlwzx xxtlt xxcfpp xqbs xvqnd xvgkv xdlsm xgj xggzgkln xftg 
-xfpj xffjdlfs kzzsbq kztrcqxt kmbgdwm kmk kbg ktbcx kszjq ksptr kswfwbzv kslnx khzzw 
-khhmfng khlbtg khqr kpmmgxb kpbslq knhmmtks knlwvk kwhcrd kwchwcv kwvnrfm krh krprtxf 
-krdb kcr kcxl kcdwcpdm kknhkq kkrr kqzrlxz kvtgzpl kgzsb kgj qzz qzj qmwknt qbpsv qbvvz 
-qslm qsfctn qhvszv qjlmkkmv qjvg qnghqcch qwl qlmhxrrf qlpt qcrx qcxr qkkjgg qdht qdr 
-qddg qdgqls qgsvbgws qfbrdg vmhp vmpdxkv vmqzmg vmd vttn vth vsng vsrp vhxdj vjmmf vjq 
-vwmb vwddsdl vcj vcvccs vxpbxrdj vxf vkvqhk vkffrqvt vqbq vqdmjdsb vvsvkq vdbbxdtw 
-vdszkb vghjwkvl vglkdghk vgclcmdx vfb vftnnd dmp dtblv dtrsfb dsgnhsf djbgqqk djsv 
-djftp dpl dwsk dwlrgxtm dlbnhz dcsbhwp dcrzslrf dcxsrkl dckqls dcgxxcqm dxz dxmkk dxss 
-dxpx dkzxctcn dknttlb dqfjwtv dvmj dgsxl dgwd dgrhmgn dggshkxz dfbnht dfj dfctpgr dfvt 
-gzrq gmv gbprtv gbn gthkq gtrpzhwb gtvrwp gsrxcb gscvghmj gsqfgjn ghfntj gjbbg gjw 
-gjvnj gpn gnksf gwpcph grplms gcmdfzdx gcnzl gcnkszfk gxltm gxglr gkt gkh gkhp gqhdfchv 
-gqjjcbjw gqwxpncw gvbfxtbv gvhkcsvw gvwg ggzb ggvf ggd gfc fzlxll ftzkqg ftdqspbf ftfpd 
-fshm fsp fjmt fpbwbzb fpj fwwm fwqwfxs frtvg frs frskk frp fcppm fkzql fkmrtn fqppvgk 
-fvjdqd fvntg fdsfsc fdh fgmcd fgrfb fgvsxzp'''.split()
+# Essas listas devem estar ordenadas. No Googlon, assim como no nosso alfabeto, as palavras são ordenadas lexicograficamente, mas o problema é que no Googlon, a ordem das letras no alfabeto é diferente da nossa. O alfabeto Googlon, em ordem, é: zmbtshjpnwlrcxkqvdgf. Assim, ao fazer essas listas, o professor deve respeitar a ordem alfabética Googlon. 
+
+# Questão D) Como seria a lista de vocabulário do Texto B?
 
 OrdemGooglon = "zmbtshjpnwlrcxkqvdgf"
 normal = 'ABCDEFGHIJKLMNOPQRST'
 jj = []
 ListaB = []
-"""
+
 def troca(s):
     resp = ""
     for x in s:
@@ -196,7 +166,17 @@ for x in range(len(txtB)):
 for x in range(len(jj)):
     ListaB.append(troca2(jj[x]))
 
-print (ListaB)"""
+print (ListaB)
+
+# Mas como os Googlons escrevem números? Bem, no Googlon, as palavras também são números dados em base 20, onde cada letra é um dígito, e os dígitos são ordenados do menos significativo para o mais significativo (o inverso do nosso sistema, para ajudar no seu programa). Ou seja, a primeira posição é a unidade, a segunda posição vale 20, a terceira vale 400, e assim por diante. Os valores das letras são dados pela ordem em que elas aparecem no alfabeto Googlon (que é diferente da nossa ordem, como vimos acima). Ou seja, a primeira letra do alfabeto Googlon representa o dígito 0, a segunda representa o dígito 1, e assim por diante. 
+
+# Por exemplo, a palavra zmbzmb tem o valor numérico de 6560820. 
+
+# Os Googlons consideram um número mágico (muito raro) se ele satisfaz uma propriedade: o valor numérico é divisível por 42 (resposta para tudo) e todos dígitos são distintos entre si. 
+
+# Ao consideramos o Texto A como uma lista de números (isto é, interpretando cada palavra como um número usando a convenção explicada acima), notamos que existem 8 números mágicos: kpbslq, gtrpzhwb, ghfntj, ljdz, gthkq, lbqjrp, jplzc e gjw 
+
+# QUESTÃO E) E no Texto B, quantos números mágicos existem e quais são?
 
 def Cálculo(x):
     resultado = 0
